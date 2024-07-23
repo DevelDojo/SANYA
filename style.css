@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    height: fit-content;
+    min-height: 90vh;
+    background-color: peachpuff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100;
+    padding: 30px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* @keyframes glow {
+    from {
+        text-shadow: 0 0 20px #f98d12;
+    }
+
+    to {
+        text-shadow: 0 0 30px #34b3c1, 0 0 10px #3d40f4;
+    }
+} */
+
+h2 {
+    margin: 0;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.rizz{
+    animation: none;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.btn {
+    padding: 6px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    color: white;
+    font-style: normal;
+    background-color: rgb(233, 33, 66);
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn1 {
+    display: flex;
+    gap: 30px;
+}
+
+.yes {
+    padding: 6px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    color: white;
+    font-style: normal;
+    background-color: rgb(56, 255, 1);
+}
+
+.no,
+#not {
+    padding: 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    background-color: red;
+}
+
+#not-allowed {
+    display: none;
+}
+
+.hide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+.list{
+    margin: 10px 0 40px 0;
+}
+
+/* Yes page */
+
+.yes-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: peachpuff;
+}
+
+.back {
+    padding: 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    background-color: rgb(135, 58, 0);
+}
